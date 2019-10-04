@@ -1,0 +1,38 @@
+{
+    "name": "phw",
+    "version": "1.0.0",
+    "description": "package watcher",
+    "author": "GrassHopper",
+    "license": "ISC",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "vue-cli-service build"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "keywords": [
+        "123"
+    ],
+    "dependencies": {
+        "@types/express": "^4.17.0",
+        "@types/luxon": "^1.15.1",
+        "@types/memcached": "^2.2.6",
+        "@types/node": "^12.0.10",
+        "@types/nodemailer": "^6.2.0",
+        "@types/sequelize": "^4.28.3",
+        "eslint": "^5.16.0",
+        "excel4node": "^1.7.1",
+        "express": "^4.17.1",
+        "luxon": "^1.16.0",
+        "memcached": "^2.2.2",
+        "net": "^1.0.2",
+        "nodemailer": "^4.6.8",
+        "pg": "^7.11.0",
+        "sequelize": "^4.44.0",
+        "sequelize-cli": "^4.1.1",
+        "twing": "^2.2.7"
+    }
+}

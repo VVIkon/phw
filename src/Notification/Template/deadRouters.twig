@@ -1,0 +1,13 @@
+{% extends 'Notification/Template/main.twig' %}
+
+{% block content %}
+    {% block bodyContent %}
+        <h2>ПИСК</h2>
+        <h4>Уведомление</h4>
+        <p>
+            Дата: {{ dateMsg }}<br>
+            Роутеры: {{ routers }}</br>
+            не отвечают в течении 20 мин
+        </p>
+    {% endblock %}
+{% endblock %}

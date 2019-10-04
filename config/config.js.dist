@@ -1,0 +1,27 @@
+module.exports = {
+    node_env: 'develop', //'test', // 'production'
+    tcpPort: 8007,
+    httpPort: 3003,
+    host: 'localhost',
+    db: {
+        host: 'localhost',
+        name: 'scan',
+        user: 'scan',
+        password: 'password'
+    },
+    mail: {
+        host: 'host',
+        port: 25,
+        secure: false,
+        user: 'scan', 
+        password: '00000000',
+        sender: 'scan@mail.ru',
+    },
+    expareMacPool: 1000 * 60 * 3, // Интервал устарения мас-адресов (30 сек = 30000, 0-не сохранять)
+    newCoomSize: 100, // накопление 10 записей 
+    netMasc: '172.22.36.', // Подсеть (при замене 'Ip_')
+    savePoolInterval: 1000, // интервал сохранения в БД изменённого МАС (1 сек, 0-не сохранять)
+    deadRouterInterval: 1000 * 60, // интервал после которого считаем роутер повисшим (1 мин, 0-не сохранять)
+    mailSendDeadRouterInterval: 1000 * 60 * 60, // интервал рассылки уведомлений о повисших роутерах (20 мин, 0-не отсылать)
+    macBlackList: []
+}

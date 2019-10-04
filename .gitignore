@@ -1,0 +1,13 @@
+.idea
+.vscode
+node_modules
+distr
+config/config.js
+
+
+
+# local env files
+.env.local
+.env.*.local
+tsconfig.json
+tslint.json
