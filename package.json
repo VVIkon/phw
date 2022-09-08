@@ -24,7 +24,7 @@
         "@types/nodemailer": "^6.2.0",
         "@types/sequelize": "^4.28.3",
         "eslint": "^5.16.0",
-        "excel4node": "^1.7.1",
+        "excel4node": "^1.8.0",
         "express": "^4.17.1",
         "luxon": "^1.16.0",
         "memcached": "^2.2.2",
